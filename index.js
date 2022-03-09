@@ -66,3 +66,4 @@ client.on('messageCreate', (message) => {
         message.channel.send(`${med[Math.floor(Math.random() * med.length)]}`)
     }
 }) 
+client.login(process.env.TOKEN)
