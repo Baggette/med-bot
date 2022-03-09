@@ -1,7 +1,7 @@
 const { Client, Intents, Message} = require('discord.js');
 const dotenv = require('dotenv');
 dotenv.config();
-const prefix = "bro";
+const prefix = "bruh";
 
 
 const client = new Client({
